@@ -1,0 +1,20 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+table {
+  margin: 100px auto 0;
+  border-collapse: collapse;
+  width: 20%;
+}
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #40b6ec;
+    color: #000000;
+  }

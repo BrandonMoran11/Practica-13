@@ -1,0 +1,21 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
+    </head>
+    <body> 
+        <h2>
+            Hola desde el EJS
+            <%if(num%2==0|| num==0) {%>
+            <h1>El numero <%=num%> es par</h1>
+             <% } else { %>
+             <h1>El numero <%=num%> es impar</h1>
+             <% } %>   
+        </h2>
+
+        <ul>
+            <% for(let i=0; i<num; i++) { %>
+                <li><%= i+1 %></li>
+              <% } %>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
+    </head>
+    <body> 
+       <Table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (var i = 0; i < data.length; i++) { %>
+                    <tr>
+                      <td><%= data[i].id %></td>
+                      <td><%= data[i].nombre %></td>
+                      <td><%= data[i].apellido %></td>
+                      <td><%= data[i].edad %></td>
+                    </tr>
+                  <% } %>
+            </tbody>
+       </Table>
+    </body>
+</html>
